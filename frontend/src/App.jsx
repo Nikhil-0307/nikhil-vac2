@@ -7,6 +7,8 @@ import Home from"./Pages/Home";
 import About from"./Pages/About";
 import Contacts from"./Pages/Contacts";
 import Service from"./Pages/Service";
+import UseState from './Hooks/UseState';
+import UseEffect from './Hooks/UseEffect';
 const App = () => {
   return (
     <div>
@@ -19,8 +21,10 @@ const App = () => {
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contacts/>}/>
         <Route path="/service" element={<Service/>}/>
+        <Route path="/usestate" element={<UseState/>}/>
+        <Route path="/useEffect" element={<UseEffect/>}/>
       </Routes>
-      App</div>
+    </div>
       
   );
 };
